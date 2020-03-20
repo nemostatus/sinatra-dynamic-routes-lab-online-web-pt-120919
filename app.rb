@@ -32,7 +32,7 @@ get '/:operation/:number1/:number2' do
   operation = params[:operation]
   case operation
   when 'add' 
-    (number1 + number2)
+    (number1 + number2).to_s
   when 'subtract' 
     (number1 - number2)
   when 'multiply' 
