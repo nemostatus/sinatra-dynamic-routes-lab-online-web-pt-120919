@@ -38,5 +38,6 @@ get '/:operation/:number1/:number2' do
   when 'multiply' 
     (number1 * number2) 
   when 'divide'
+    (number1 / number2)
 end
 end
