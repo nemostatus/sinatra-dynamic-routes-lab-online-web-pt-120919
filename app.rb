@@ -32,6 +32,8 @@ get '/:operation/:number1/:number2' do
   operation = params[:operation]
   case operation
   when 'add' 
-    
+    (number1 + number2)
+  when 'subtract' 
+    (number1 - number2)
 end
 end
