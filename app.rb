@@ -36,6 +36,7 @@ get '/:operation/:number1/:number2' do
   when 'subtract' 
     (number1 - number2)
   when 'multiply' 
-    (number1 * number2)
+    (number1 * number2) 
+  when 'divide'
 end
 end
