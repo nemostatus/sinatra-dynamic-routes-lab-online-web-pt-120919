@@ -41,3 +41,4 @@ get '/:operation/:number1/:number2' do
     (number1 / number2).to_s 
 end
 end
+end
